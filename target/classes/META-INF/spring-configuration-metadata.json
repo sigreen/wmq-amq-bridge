@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "amqp",
+      "type": "org.mycompany.AMQPConfiguration",
+      "sourceType": "org.mycompany.AMQPConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "amqp.password",
+      "type": "java.lang.String",
+      "description": "AMQ password",
+      "sourceType": "org.mycompany.AMQPConfiguration"
+    },
+    {
+      "name": "amqp.url",
+      "type": "java.lang.String",
+      "sourceType": "org.mycompany.AMQPConfiguration"
+    },
+    {
+      "name": "amqp.username",
+      "type": "java.lang.String",
+      "description": "AMQ username",
+      "sourceType": "org.mycompany.AMQPConfiguration"
+    }
+  ],
+  "hints": []
+}

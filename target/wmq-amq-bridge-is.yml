@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: wmq-amq-bridge
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: wmq-amq-bridge@sha256:ce74572e809d5888c0142cb9b680803c0438336ea85c399e7da83de889497a6a
+        namespace: fuse-online
+      name: "1.0"
